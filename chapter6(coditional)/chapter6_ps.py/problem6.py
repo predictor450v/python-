@@ -1,0 +1,19 @@
+# 90-100 = ex, 80-90 = a , 70 - 80 =b , 60-70 = c ,60 - 50 = d, <50 = f
+# using this calvulate user's grade
+
+marks = int (input("enter your marks:"))
+
+if(marks<= 100 and marks >=90):
+    grade ="ex"
+elif(marks<= 90 and marks >=80):
+    grade ="a"
+elif(marks<= 80 and marks >=70):
+    grade ="b"
+elif(marks<= 70 and marks >=60):
+    grade ="c"
+elif(marks<= 60 and marks >=50):
+    grade ="d"
+elif(marks<=50):
+    grade ="ex"
+    
+print(f"your garade is {grade}")
