@@ -21,7 +21,7 @@ print(replaced_string)
 
 "  hello  ".strip()  # Output: 'hello'   Removes leading and trailing spaces or specified characters.
 
-"hello world".split()  # Output: ['hello', 'world']
+"hello world".split()  # Output: ['hello', 'world'] return in list
 
 "-".join(['hello', 'world'])  # Output: 'hello-world'
 

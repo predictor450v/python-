@@ -1,3 +1,5 @@
+# different ways to write string
+
 name ="ayush"
 
 name ='''ayush
@@ -14,15 +16,9 @@ print (name)
 
 # indexing in string 
 
-nameshort = len(name)   #used for to know lenght of string
-print(nameshort)
-
-
-
+print(len(name))  #used for to know lenght of string
 
 # string slicing
-
-
 # a string in python can be sliced for getting a part of the string
 
 
@@ -30,8 +26,6 @@ nameshort = name[0:3]
 print(nameshort)
 print(name[-4:-1])     # convert negative index to positive index ***** 
 print(name[1:4])
-
-
 
 character1 = name[1]
 print("character1 is =" , character1)
