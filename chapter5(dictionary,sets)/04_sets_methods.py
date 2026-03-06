@@ -14,4 +14,3 @@ print(len(s))
 print(s.pop())
 
 print(s)
-
