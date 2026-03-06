@@ -9,4 +9,3 @@ print(type(e))
 d = {}
 print(type(d))
 
-
