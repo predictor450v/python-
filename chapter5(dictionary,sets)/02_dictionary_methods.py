@@ -20,4 +20,3 @@ print (marks.get("ayush"))    # to get values
 
 print(marks.pop("rohan"))
 print(len(marks))
-
