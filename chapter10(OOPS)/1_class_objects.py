@@ -67,4 +67,4 @@ david.add_score(85)
 print("Virat avg score: ",virat.get_average_score())
 print("David avg score: ", david.get_average_score())
 
-print("Is virat less than david: ", virat < david)
+print("Is virat less than david: ", virat < david) 
